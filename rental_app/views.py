@@ -15,3 +15,7 @@ class BelongingViewset(viewsets.ModelViewSet):
 class BorrowedViewset(viewsets.ModelViewSet):
     queryset = models.Borrowed.objects.all()
     serializer_class = serializers.BorrowedSerializers
+
+
+class MyNewClass:
+    for_test = 'test'
