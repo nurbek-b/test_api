@@ -210,5 +210,5 @@ ENV/
 
 # mkdocs documentation
 /site
-rental_env/*
-rental_env/
+myvenv/*
+myvenv/
